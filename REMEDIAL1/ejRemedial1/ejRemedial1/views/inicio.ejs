@@ -1,0 +1,17 @@
+<%- include("templates/encabezado")%>
+<link rel="stylesheet" href="../web/css/estiloInicio.css">
+
+
+<form action="/alumnos" method="post" id="formulario">
+<div>
+<p>Ingresa el nombre del Alumno:</p>
+<input type="text" name="alumno" id="alumno" placeholder="Nombre" autofocus>
+<p>Ingresa el grupo del Alumno:</p>
+<input type="text" name="grupo" id="grupo" placeholder="Grupo">
+<p>Ingresa el cuatrimestre que cursa el Alumno:</p>
+<input type="text" name="cuatrimestre" id="cuatrimestre" placeholder="Cuatrimestre">
+<button type="submit">Enviar</button>
+</div>
+</form>
+
+<%- include("templates/pie")%>
